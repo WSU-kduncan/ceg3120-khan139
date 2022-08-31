@@ -66,12 +66,12 @@
   - Contains all information that is necessary for the project and all information relating commits, remote repository address, etc
 	- Contains a log that stores the commit history
 	- Hooks, objects, config, refs, HEAD, and index
-  - ``
+  - `‏‏‎ ‎`
 - .gitignore file
   - File that holds list of files / directories you want ignored
 	- Git status will no longer show these as files to be added
 	- Used to keep excess or secrets off GitHub
-  - ``
+  - `‎‎‏‏‎ ‎`‎
 - ~~.git/hooks~~
 
 ## GitHub
@@ -79,7 +79,7 @@
 - Pull requests
   - Forum like interface on GitHub where you can request changes be merged
 	- Is requesting the maintainer of a repository to git pull in some changes 
-  - ``
+  - `‏‏‎ ‎`
 - SSH authentication to repositories
   - SSH public key authentication works with an asymmetric pair of generated encryption keys
 	- Provides a secure channel over an unsecured network
