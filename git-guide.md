@@ -28,6 +28,10 @@
 	- By using commits, you're able to craft history intentionally and safely
   - `git commit -a -m "commit message"`
 - push
+  - Uploads all local branch commits to the corresponding remote branch
+    - Updates the remote branch with local commits
+	- Comparable to *publish* or *update*
+  - `git push`
 - fetch
 - merge
 - pull
