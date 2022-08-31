@@ -33,7 +33,15 @@
 	- Comparable to *publish* or *update*
   - `git push`
 - fetch
+  - Used to download commits, files and references from a remote repository into the local repository
+	- Used to see what other members of the team have been working on
+	- Does not force to merge the changes into the repository, it just shows the progression of the central history
+  - `git fetch --all`
 - merge
+  - Integrates the independent lines of development into a single branch
+	- Primary use it to merge to branches
+	- Used to merge multiple commits into one history
+  - `git merge <branchname>`
 - pull
 - branch
 - checkout
