@@ -9,6 +9,10 @@
     - list of files in local folder that have changes that need to be committed
   - `git status`
 - clone
+  - Is used to create a copy of a specific repository or branch within a repository
+    - By cloning with Git, you get the entire repository - all files, all branches, and all commits
+    - Once a repository already exists on a remote, like on GitHub, then you would clone that repository so you could interact with it locally
+  - `git clone`
 - add
 - rm
 - commit
