@@ -17,7 +17,7 @@
   - Adds new or changed files in your working directory to the Git staging area
     - This step allows you to choose what you are going to commit
     - Allows you to systematically shape your commits and your history anyway
-  - `git add [filename]`
+  - `git add <filename>`
 - rm
   - Removes specific files or a group of files from a Git repository
     - Used for removing files from both the staging index and the working directory
@@ -43,8 +43,20 @@
 	- Used to merge multiple commits into one history
   - `git merge <branchname>`
 - pull
+  - Updates your current local working branch, and all of the remote tracking branches
+	- Should be run regularly on the branches you are working on locally
+	- Without running it, your local repository will never be updated with changes from the remote
+  - `git pull`
 - branch
+  - Creates, lists and deletes branches
+	- Accepted as a way to request a new working directory, staging area and project history
+	- Are a pointer to a snapshot of the changes you have made
+  - `git branch <filename>'
 - checkout
+  - Switches branches or restores working tree files
+	- Operates on files, commits, and branches
+	- Allows switching between multiple features in just a single repository
+  - `git checkout -b <branchname>'
 - ~~init~~
 - ~~remote~~
 
