@@ -51,12 +51,12 @@
   - Creates, lists and deletes branches
 	- Accepted as a way to request a new working directory, staging area and project history
 	- Are a pointer to a snapshot of the changes you have made
-  - `git branch <filename>'
+  - `git branch <filename>`
 - checkout
   - Switches branches or restores working tree files
 	- Operates on files, commits, and branches
 	- Allows switching between multiple features in just a single repository
-  - `git checkout -b <branchname>'
+  - `git checkout -b <branchname>`
 - ~~init~~
 - ~~remote~~
 
