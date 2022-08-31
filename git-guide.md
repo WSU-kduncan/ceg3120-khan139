@@ -79,7 +79,7 @@
 - Pull requests
   - Forum like interface on GitHub where you can request changes be merged
 	- Is requesting the maintainer of a repository to git pull in some changes 
-  - `‏‏‎ ‎`
+  - `‏‏‎vim .gitignore``git add .gitignore`
 - SSH authentication to repositories
   - SSH public key authentication works with an asymmetric pair of generated encryption keys
 	- Provides a secure channel over an unsecured network
