@@ -20,7 +20,7 @@
         - 'Hey!'
         - 'Have a good day!'
     - screenshots are welcome here
-		- ![Screenshot](\\wsl.localhost\Ubuntu-20.04\home\user\ceg3120-khan139\Discord-Bot\README.png)
+		- ![Screenshot](home\user\ceg3120-khan139\Discord-Bot\README.png)
   - Research
     - you may have realized that it is lame that the bot only runs when you run the program - it turns off if you disconnect or need to switch tasks.
     - In the real world, things are "always on", not waiting for Bob to turn his PC on and make sure the program is running.
