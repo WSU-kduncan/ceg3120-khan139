@@ -62,7 +62,7 @@
 
 ## git files & folders
 
-- .git folder
+- .git folder (hidden)
   - Contains all information that is necessary for the project and all information relating commits, remote repository address, etc
 	- Contains a log that stores the commit history
 	- Hooks, objects, config, refs, HEAD, and index
