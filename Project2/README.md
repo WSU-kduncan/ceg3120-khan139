@@ -1,6 +1,8 @@
 ## Part 1
-- ![Screenshot](images/VPC.png)
-  - Shows status of the local repository. This status includes:
-    - number of local commits that have not been synced with remote (GitHub)
-
+- ![VPC](images/VPC.png)
+  - Virtual Private Cloud
+    - Virtual network dedicated to your AWS system. Resembles a traditional network.
+- ![VPC](images/VPC.png)
+  - Virtual Private Cloud
+    - Virtual network dedicated to your AWS system. Resembles a traditional network.
 ## Part 2
