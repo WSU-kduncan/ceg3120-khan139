@@ -26,5 +26,5 @@
 6. When launching instances, edit network settings. After you've chosen the correct VPC go to the Firewall (security groups) section. Select existing security group and and under common security groups chose your security group (Khan-VPC). 
 7. When launching allocate elastic IP address, leave everything default. However, under tags type "Name" for key and "Khan-EIP" under Value for indentification purposes. Next, select your new EIP and click the associate elastic IP address tab. Under instance choose your current instance (Khan-Instance). Under private IP address you are able to auto select the private IP address. The reason for this is because when the machine got created, it chose for itself, a private IP address on that network.
 8. ![InstanceDetails](images/InstanceDetails.png)
-9. First, back up your old hostname into a new file called hostname.old. Second, type in `sudo hostnamectl set-hostname Khan-AMI` which will permanently change your hostname next time you open your system.
+9. First, back up your old hostname into a new file called etc/hostname.old. Second, type in `sudo hostnamectl set-hostname Khan-AMI` which will permanently change your hostname next time you open your system.
 10. ![Hostname](images/Hostname.png)
