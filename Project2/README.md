@@ -16,3 +16,13 @@
     - Network firewall, controls the traffic that is allowed to reach and leave the resources that it is associated with.
 	
 ## Part 2
+1. 
+2. 
+3. 
+4. 
+5. 
+6.
+7.
+8. ![InstanceDetails](images/InstanceDetails.png)
+9.
+10. ![Hostname](images/Hostname.png)
