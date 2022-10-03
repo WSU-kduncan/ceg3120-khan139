@@ -20,7 +20,7 @@
 - AMI Selected: ami-08c40ec9ead489470
 - Instace Type Selected: t.2 micro
 2. When launching instances, edit network settings. Under VPC-required choose Khan-VPC. This will attach the instance to your VPC.
-3. Auto-assigning an IPV4 address to the instance is the way to go. They'll be chosen from Amazon's pool of IPv4 addresses. The other options require you to provide your own public IP or a customer owned pool of IPV4 addresses. These also come with their own requirements and quotas.
+3. Auto-assigning an IPV4 address to the instance is the way to go. They'll be chosen from Amazon's pool of IPv4 addresses. The other options require you to provide your own public IP or a customer owned pool of IPV4 addresses (which is not applicable for us). These also come with their own requirements and quotas.
 4. When launching instances, edit configure storage. Select: 1x 8 Gib | General purpose SSD (gp2) Root volume | (this is also the default config).
 5. When launching instances, edit name and tags. Under name type in Khan-Instance. You've now added a tag with your "Name" to your instance.
 6. When launching instances, edit network settings. After you've chosen the correct VPC go to the Firewall (security groups) section. Select existing security group and and under common security groups chose your security group (Khan-VPC). 
