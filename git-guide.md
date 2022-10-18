@@ -57,7 +57,8 @@
 	- Operates on files, commits, and branches
 	- Allows switching between multiple features in just a single repository
   - `git checkout -b <branchname>`
-- ~~init~~
+- `init`
+ - Initilize a repo, it doesn't exist anywhere on the server
 - ~~remote~~
 
 ## git files & folders
