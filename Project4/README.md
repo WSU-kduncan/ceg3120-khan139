@@ -14,10 +14,12 @@
 		- The private IP will be associated and that will allow us to use an alias.
 `ssh -i ().pem webserv1`
 3. **_HAProxy configuration & documentation requirements_**
-   - How to set up a HAProxy load balancer
-     - What file(s) where modified & their location
-		- The haproxy.cfg file was modified & and it is located in /etc/haproxy
-     - What configuration(s) were set (if any)
+- How to set up a HAProxy load balancer
+ - What file(s) where modified & their location
+```
+The haproxy.cfg file was modified & and it is located in /etc/haproxy
+ ```
+ - What configuration(s) were set (if any)
 ```
 frontend haproxy-main
 	bind 10.0.0.10:80
@@ -29,9 +31,9 @@ backend webservers
 ```
  - How to restart the service after a configuration change
 ```
-	 sudo systemctl restart haproxy
+ sudo systemctl restart haproxy
  ```
-     - Resources used (websites)
+- Resources used (websites)
  ```
  https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
  https://linuxhint.com/how-to-install-and-configure-haproxy-load-balancer-in-linux/
