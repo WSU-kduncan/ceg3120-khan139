@@ -19,15 +19,15 @@
 		- The haproxy.cfg file was modified & and it is located in /etc/haproxy
      - What configuration(s) were set (if any)
 	 ```
-	 frontend haproxy-main
-		bind 10.0.0.10:80
-        default_backend web_servers 
+frontend haproxy-main
+	bind 10.0.0.10:80
+	default_backend web_servers 
 		```
 		```
-	backend webservers
-		balance roundrobin
-		server webserv1 10.0.1.10:80 check
-		server webserv2 10.0.1.11:80 check
+backend webservers
+	balance roundrobin
+	server webserv1 10.0.1.10:80 check
+	server webserv2 10.0.1.11:80 check
 	 ```
      - How to restart the service after a configuration change
 	 ```
