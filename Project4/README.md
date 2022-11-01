@@ -27,15 +27,17 @@ backend webservers
 	server webserv1 10.0.1.10:80 check
 	server webserv2 10.0.1.11:80 check
 ```
+
      - How to restart the service after a configuration change
- ```
+
+
 	 sudo systemctl restart haproxy
  ```
      - Resources used (websites)
-	 ```
-	 https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
-	 https://linuxhint.com/how-to-install-and-configure-haproxy-load-balancer-in-linux/
-	 ```
+ ```
+ https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
+ https://linuxhint.com/how-to-install-and-configure-haproxy-load-balancer-in-linux/
+ ```
 4. **_Webserver 1 & 2 configuration & documentation requirements_**
    - How set up a webserver
      - What file(s) were modified & their location
