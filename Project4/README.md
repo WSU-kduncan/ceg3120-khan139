@@ -10,22 +10,18 @@
 10.0.1.11 webserv2
 ```
 2. Document how to SSH in between the systems utilizing their private IPs.
-	```
-	A config is altered (/etc/hosts) that will allow us to SSH between instances. The private IP will be associated and that will allow us to use an alias.
-	ssh -i ().pem webserv1
-	```
+	- A config is altered (/etc/hosts) that will allow us to SSH between instances. 
+		- The private IP will be associated and that will allow us to use an alias.
+`ssh -i ().pem webserv1`
 3. **_HAProxy configuration & documentation requirements_**
    - How to set up a HAProxy load balancer
      - What file(s) where modified & their location
-	 ```
-	 The haproxy.cfg file was modified & and it is located in /etc/haproxy
-	 ```
+		- The haproxy.cfg file was modified & and it is located in /etc/haproxy
      - What configuration(s) were set (if any)
 	 ```
 	 frontend haproxy-main
 		bind 10.0.0.10:80
         default_backend web_servers 
-
 	backend webservers
 		balance roundrobin
 		server webserv1 10.0.1.10:80 check
