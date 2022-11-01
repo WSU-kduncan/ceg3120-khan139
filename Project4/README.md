@@ -44,19 +44,19 @@ backend webservers
 ```
 The index.html file was modified & and it is located in /var/www/html
 ```
-     - What configuration(s) were set (if any)
+- What configuration(s) were set (if any)
 ```
 N/A
 ```	 
-     - Where site content files were located (and why)
+- Where site content files were located (and why)
 ```
 The content files were located in the /var/www/html directory and this is because it is the directory for our webserver
 ```	 
-     - How to restart the service after a configuration change
+- How to restart the service after a configuration change
 ```
 sudo systemctl restart apache2
 ```	 
-     - Resources used (websites)
+- Resources used (websites)
 ```
 https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04
 ```	 
