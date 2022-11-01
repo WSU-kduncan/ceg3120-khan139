@@ -22,8 +22,6 @@
 frontend haproxy-main
 	bind 10.0.0.10:80
 	default_backend web_servers 
-		```
-		```
 backend webservers
 	balance roundrobin
 	server webserv1 10.0.1.10:80 check
