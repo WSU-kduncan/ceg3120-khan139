@@ -41,25 +41,25 @@ backend webservers
 4. **_Webserver 1 & 2 configuration & documentation requirements_**
    - How set up a webserver
      - What file(s) were modified & their location
-	 ```
-	The index.html file was modified & and it is located in /var/www/html
-	 ```
+```
+The index.html file was modified & and it is located in /var/www/html
+```
      - What configuration(s) were set (if any)
-	 ```
-	 N/A
-	 ```	 
+```
+N/A
+```	 
      - Where site content files were located (and why)
-	 ```
-	 The content files were located in the /var/www/html directory and this is because it is the directory for our webserver
-	 ```	 
+```
+The content files were located in the /var/www/html directory and this is because it is the directory for our webserver
+```	 
      - How to restart the service after a configuration change
-	 ```
-	 sudo systemctl restart apache2
-	 ```	 
+```
+sudo systemctl restart apache2
+```	 
      - Resources used (websites)
-	 ```
-	 https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04
-	 ```	 
+```
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04
+```	 
 5. From the browser, when connecting to the proxy server, take two screenshots.
    - one screenshot that shows content from "server 1"
    - ![webserv1](images/s1.png)
