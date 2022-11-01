@@ -4,8 +4,8 @@
 
 1. Create an `/etc/hosts` OR `.ssh/config` file on each system that correlates hostnames to private IPs of systems within the subnet (your instances).
 	- Description of how file is configured
-		- Both webserv1 and webserv2 have private IPs allocated to them. (Edited /etc/hosts)
 ```
+- Both webserv1 and webserv2 have private IPs allocated to them. (Edited /etc/hosts)
 10.0.1.10 webserv1
 10.0.1.11 webserv2
 ```
