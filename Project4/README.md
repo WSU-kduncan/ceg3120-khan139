@@ -27,10 +27,8 @@ backend webservers
 	server webserv1 10.0.1.10:80 check
 	server webserv2 10.0.1.11:80 check
 ```
-
-     - How to restart the service after a configuration change
-
-
+ - How to restart the service after a configuration change
+```
 	 sudo systemctl restart haproxy
  ```
      - Resources used (websites)
